@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/Resim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9FAFB;
+    width: 400px;
+    left: 0;
+    padding: 20px;
+}
+
+.login-boxs {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-boxs input {
+    margin: 0.50rem  1rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #d4d7da;
+    text-align: center;
+}
+
+.login-boxs button {
+    margin: 1rem 5rem;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: #d4d7da;
+    border: 1px solid blueviolet;
+}
+
+.login-boxs button:hover {
+    color: darkviolet;
+    background-color: #d4d7da;
+    border: 1px solid #d4d7da;
+    transition: 0.50s;
+}
